@@ -1,10 +1,10 @@
-package dao;
+package maurogiuseppe.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import model.LoginModel;
+import maurogiuseppe.model.LoginModel;
 
 import org.springframework.stereotype.Repository;
 

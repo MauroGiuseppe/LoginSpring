@@ -1,6 +1,6 @@
-package service;
+package maurogiuseppe.service;
 
-import model.LoginModel;
+import maurogiuseppe.model.LoginModel;
 
 public interface LoginService {
 	 

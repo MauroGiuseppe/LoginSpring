@@ -1,4 +1,4 @@
-package model;
+package maurogiuseppe.model;
 
 /**
  * this model contain the propertyes for the

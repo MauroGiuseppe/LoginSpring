@@ -1,4 +1,4 @@
-package controllers;
+package maurogiuseppe.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
-import service.LoginService;
-import model.LoginModel;
+import maurogiuseppe.model.LoginModel;
+import maurogiuseppe.service.LoginService;
 
 public class LoginController {
 

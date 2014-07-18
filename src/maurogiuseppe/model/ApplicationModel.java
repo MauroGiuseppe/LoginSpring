@@ -1,4 +1,4 @@
-package model;
+package maurogiuseppe.model;
 
 /**
  * This model class is used mainly to send the data into a single object which contains all the details

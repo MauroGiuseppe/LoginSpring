@@ -1,10 +1,10 @@
-package controllers;
+package maurogiuseppe.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.ApplicationModel;
-import model.LoginModel;
+import maurogiuseppe.model.ApplicationModel;
+import maurogiuseppe.model.LoginModel;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;

@@ -1,11 +1,10 @@
-package service;
+package maurogiuseppe.service;
 
-import model.LoginModel;
+import maurogiuseppe.dao.LoginDAO;
+import maurogiuseppe.model.LoginModel;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import dao.LoginDAO;
 
 @Service("loginService")
 public class LoginServiceImpl implements LoginService {

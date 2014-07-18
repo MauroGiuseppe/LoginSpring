@@ -1,6 +1,6 @@
-package dao;
+package maurogiuseppe.dao;
 
-import model.LoginModel;
+import maurogiuseppe.model.LoginModel;
 
 public interface LoginDAO {
 	 
