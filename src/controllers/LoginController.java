@@ -8,10 +8,10 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.servlet.HttpServletBean;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
+import service.LoginService;
 import model.LoginModel;
 
 public class LoginController {

@@ -8,7 +8,6 @@ import model.LoginModel;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.beans.factory.annotation.Configurable;
 
 @Controller
 public class UserController {
@@ -25,10 +24,6 @@ public class UserController {
 		loginModel=(LoginModel) request.getSession().getAttribute("user");
 		applicationModel.setLoginModel(loginModel);
 		return new ModelAndView("success","applicationModel",applicationModel);
-		
-		
-		
-		
 	}
 
 }
